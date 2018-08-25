@@ -1,3 +1,50 @@
-agm-map {
-  height: 300px;
+#id-app-map {
+  display: flex;
+  margin: 100px 150px 0px 200px;
+  flex-direction: column;
+  .header-family {
+    font-family: "Arial Black";
+    font-weight: bold;
+  }
+  .app-map-header {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  agm-map {
+    width: 95%;
+    height: 200px;
+  }
+  .contact-details {
+    margin-top: 40px;
+    display: flex;
+    .contact-mail,
+    .contact-number,
+    .office-address {
+      display: flex;
+      flex-grow: 1;
+    }
+    .contact-mail-id,
+    .contact-mail-header,
+    .contact-number-header,
+    .contact-number-header,
+    .contact-address-header,
+    .contact-address-details {
+      flex-grow: 1;
+    }
+    .head-office-mail-id,
+    .head-office-number {
+      margin-bottom: 25px;
+    }
+    .contact-number,
+    .office-address {
+      margin-left: 40px;
+    }
+    .contact-mail:after,
+    .contact-number:after {
+      content: "";
+      background-color: grey;
+      width: 1px;
+      height: 110px;
+    }
+  }
 }
