@@ -1,0 +1,15 @@
+  #app-header-navbar{
+  display: flex;
+  flex-wrap: wrap;
+  // margin-left: 150px;
+  .home,
+  .services,
+  .projects,
+  .gallery,
+  .blog,
+  .pages,
+  .contact,
+  .about{
+  margin: 18px;
+  }
+}
